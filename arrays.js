@@ -12,9 +12,9 @@ function destructivelyAddElementToBeginningOfArray(array, n) {
   return newArray
 }
 
-function addElementToEndOfArray() {
-  [...chocolateBars, "foo"]
-  return chocolateBars
+function addElementToEndOfArray(array, n) {
+  var newArray = [...array, n]
+  return newArray
 }
 
 function destructivelyAddElementToEndOfArray() {
