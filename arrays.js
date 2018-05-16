@@ -37,3 +37,4 @@ function removeElementFromBeginningOfArray(array, element) {
   return newArray
 }
 
+
