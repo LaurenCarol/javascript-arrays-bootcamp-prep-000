@@ -6,9 +6,9 @@ function addElementToBeginningOfArray(array, n) {
   return newArray
 }
 
-function destructivelyAddElementToBeginningOfArray(array, n) {
-  var newArray = [array, n]
-  newArray.push(n)
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  var newArray = [array, element]
+  newArray.push(element)
   return newArray
 }
 
